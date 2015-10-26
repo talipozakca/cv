@@ -9,7 +9,6 @@ deploy:
     secure: [YOUR KEY]
   file:
   - _build/cv_12.pdf
-  - _build/your_file_2.pdf
   skip_cleanup: true
   on:
     tags: true
